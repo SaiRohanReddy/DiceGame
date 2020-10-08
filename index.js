@@ -8,7 +8,8 @@ document.querySelector(".img1").setAttribute("src","images/" + randomImage + ".p
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 var randomImage1 = "dice" + randomNumber2;
 document.querySelector(".img2").setAttribute("src","images/" + randomImage1 + ".png");
-
+document.querySelector("name1").setAttribute(player1);
+document.querySelector("name1").setAttribute(player2);
 if (randomNumber1 > randomNumber2) {
 
     document.querySelector("h1").innerHTML = player1 + " Wins 🚩";
